@@ -644,11 +644,11 @@ class PdfTest extends TestCase
 
     protected $formData = <<<EOD
 InfoBegin
-InfoKey: CreationDate
-InfoValue: D:20140709121536+02'00'
-InfoBegin
 InfoKey: Creator
 InfoValue: Writer
+InfoBegin
+InfoKey: CreationDate
+InfoValue: D:20140709121536+02'00'
 InfoBegin
 InfoKey: Producer
 InfoValue: LibreOffice 4.2
